@@ -18,15 +18,19 @@
 
 
 .moodbox {
-    background-color: aliceblue;
+    background-color: rgb(173, 200, 224);
     padding: 20px;
     display: flex;
     flex-flow: column;
     justify-content: center;
     align-items: center;
+}
 
+.moodbox:hover {
+    background-color: aqua;
 }
 
 body {
     font-family: 'Inter', sans-serif;
+    background-color: #F7F7F7;
 }
