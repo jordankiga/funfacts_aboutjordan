@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    color:blue
+}
+
+.moods {
+    justify-content: center;
+    align-items: center;
+    color: black;
+    display: flex;
+    flex-flow: row;
+    gap: 20px;
+    font-size: 20px;
+}
+
+
+.moodbox {
+    background-color: aliceblue;
+    padding: 20px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
