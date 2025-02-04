@@ -1,36 +1,135 @@
+.header {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+}
+
 .container {
     display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-    color:blue
-}
-
-.moods {
-    justify-content: center;
-    align-items: center;
-    color: black;
-    display: flex;
     flex-flow: row;
-    gap: 20px;
-    font-size: 20px;
+    justify-content: left;
+    width: 700px;
+    overflow: hidden;
+    padding-top: 50px;
 }
 
+.carousel {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
 
-.moodbox {
-    background-color: rgb(173, 200, 224);
-    padding: 20px;
+.funFactsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: black;
+    gap: 60px;
+    font-size: 32px;
+    height: 320px;
+    padding-right: 50px;
+    animation: scroll 30s infinite;
+}
+
+.cardHeader {
+    display: flex;
+    align-self: flex-start;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.cardBody {    
+    display: flex;
+    align-self: flex-end;
+    font-weight: lighter;
+}
+
+.card1 {
     display: flex;
     flex-flow: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    background-color: #DDB7FD;
+    border: 3px solid #BA6AFC;
+    border-radius: 20px;
+    padding: 40px;
+    width: 500px;
 }
 
-.moodbox:hover {
-    background-color: aqua;
+.card2 {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    background-color: #B7F6FD;
+    border: 3px solid #6AE1FC;
+    border-radius: 20px;
+    padding: 40px;
+    width: 500px;
+    justify-content: space-between;
 }
+
+.card3 {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    background-color: #F4FDB7;
+    border: 3px solid #FCF26A;
+    border-radius: 20px;
+    padding: 40px;
+    width: 500px;
+}
+
+.card4 {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    background-color: #FDB7DA;
+    border: 3px solid #FC6AB6;
+    border-radius: 20px;
+    padding: 40px;
+    width: 500px;
+}
+
+.card5 {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    background-color: #CAFDB7;
+    border: 3px solid #A0FC6A;
+    border-radius: 20px;
+    padding: 40px;
+    width: 500px;
+}
+
 
 body {
     font-family: 'Inter', sans-serif;
     background-color: #F7F7F7;
+}
+
+@keyframes scroll {
+    0%, 16.66% {
+        transform: translateX(0);
+    }
+
+    20%, 36.66% {
+        transform: translateX(-640px);
+    }
+
+    40%, 56.66% {
+        transform: translateX(-1280px);
+    }
+
+    60%, 76.66% {
+        transform: translateX(-1920px);
+    }
+
+    80%, 96.66% {
+        transform: translateX(-2560px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
 }
