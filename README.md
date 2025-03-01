@@ -1,1 +1,1 @@
-# vs_code_example
+# This is a mini project I made to showcase my exploration of design and HTML/CSS!
