@@ -1,3 +1,8 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #FFFFFF;
+}
+
 .header {
     display: flex;
     flex-flow: column;
@@ -46,66 +51,38 @@
     font-weight: lighter;
 }
 
-.card1 {
+.card1, .card2, .card3, .card4, .card5 {
     display: flex;
     flex-flow: column;
     justify-content: space-between;
-    background-color: #DDB7FD;
-    border: 3px solid #BA6AFC;
     border-radius: 20px;
     padding: 40px;
     width: 500px;
+}
+
+.card1 {
+    background-color: #DDB7FD;
+    border: 3px solid #BA6AFC;
 }
 
 .card2 {
-    display: flex;
-    flex-flow: column;
-    justify-content: space-between;
     background-color: #B7F6FD;
     border: 3px solid #6AE1FC;
-    border-radius: 20px;
-    padding: 40px;
-    width: 500px;
-    justify-content: space-between;
 }
 
 .card3 {
-    display: flex;
-    flex-flow: column;
-    justify-content: space-between;
     background-color: #F4FDB7;
     border: 3px solid #FCF26A;
-    border-radius: 20px;
-    padding: 40px;
-    width: 500px;
 }
 
 .card4 {
-    display: flex;
-    flex-flow: column;
-    justify-content: space-between;
     background-color: #FDB7DA;
     border: 3px solid #FC6AB6;
-    border-radius: 20px;
-    padding: 40px;
-    width: 500px;
 }
 
 .card5 {
-    display: flex;
-    flex-flow: column;
-    justify-content: space-between;
     background-color: #CAFDB7;
     border: 3px solid #A0FC6A;
-    border-radius: 20px;
-    padding: 40px;
-    width: 500px;
-}
-
-
-body {
-    font-family: 'Inter', sans-serif;
-    background-color: #FFFFFF;
 }
 
 @keyframes scroll {
